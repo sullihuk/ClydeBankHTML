@@ -1,0 +1,30 @@
+p {
+	background-color: grey;
+	font-style: italic;
+	color: orange;
+}
+
+h1 {
+	background-color: black;
+	font-style: roman;
+	font-weight: bold;
+	font-size: 30px;
+	color: yellow;
+}
+
+h2 {
+	background-color: darkgrey;
+	font-style: italic;
+	font-size: 24px;
+	color: white;
+}
+
+.cat {
+	font-size: 16px;
+	font-style: italic;
+	background-color: yellow;
+	color: darkgrey;
+}
+a::link {color: blue;}
+a::visited {color: green;}
+a::active {color: black;}

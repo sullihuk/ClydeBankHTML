@@ -35,3 +35,9 @@ p::before {
 	font-weight: bold;
 	color: red;
 }
+p::after {
+	content: "There is AFTER";
+	font-style: italic;
+	background-color: black;
+	color: yellow;
+	}
