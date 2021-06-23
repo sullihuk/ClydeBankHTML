@@ -1,4 +1,26 @@
+html { box-sizing: border-box;}
+*,*:before, *:after {box-sizing: inherit;}
+#mountain {
+	width: auto;
+	height: auto;
+	min-width: 320;
+	min-height: auto;
+	max-width: 800;
+	max-height: auto;
+	padding-top: 100px;
+	padding-bottom: 35px;
+	padding-right: 20px;
+	padding-left: 28px;
+	background-color: yellow;
+	border-top: 3px solid grey;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	border-left: 3px solid grey;
+	margin: 5px	
+	
+}
 p {
+
 	background-color: grey;
 	font-style: italic;
 	color: orange;
@@ -23,7 +45,7 @@ h2 {
 	font-size: 16px;
 	font-style: italic;
 	background-color: yellow;
-	color: darkgrey;
+	color: blue;
 }
 a::link {color: blue;}
 a::visited {color: green;}
