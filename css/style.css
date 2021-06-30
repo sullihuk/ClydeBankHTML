@@ -7,7 +7,7 @@ html {
 
 body {
     font-size: 16px;
-    font-family: "Arial", Helvetica, sans-serif;
+    font-family: 'Open Sans', "Arial", Helvetica, sans-serif;
     margin: 0;
     color: #000;
 }
@@ -79,10 +79,14 @@ header {
     vertical-align: middle;
 }
 
-nav { background: #262d33; }
+nav { 
+background: chocolate;
+font-color: white;
+}
+
 
 nav li a { 
-    color: #AFB2B6;
+    color: white;
     display: inline-block;
     padding: 10px 10px;
 }
@@ -92,7 +96,7 @@ nav li a {
 /* Footer */
 
 footer {
-    background: #333;
+    background: chocolate;
     color: #fff;
     padding: 10px;  
     height: 100px;
