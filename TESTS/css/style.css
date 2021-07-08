@@ -86,10 +86,10 @@ p::after {
 
 .fixed {
 	position: fixed;
-	top:0;
+	top: 55px;
 	right: 0;
-	width: 640px;
-	content: "Fixed PIZDOTA";
+	width: 500px;
+	content: "REALLY Fixed PIZDOTA";
 	font-style: italic;
 	font-size: 2em;
 	background-color: rgb(200, 200, 200);
@@ -147,4 +147,41 @@ div.the-child {
 	clear: both;
 	display: table;
 }
-/*.box, .grid, .grid::after {box-sizing: border-box;}*/
+.box, .grid, .grid::after {box-sizing: border-box;}
+.inline-paragraph {
+	display: inline;
+}
+.block-paragraph {display: block;}
+.inline-text {display: inline-block;}
+.main-nav {
+	font-family: 'Open Sans',verdana, sans-serif;
+	font-size: .8rem;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+.main-nav li {float: left;}
+.main-nav li a {
+	display: block;
+	color: #EEEEEE;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+}
+.flex-container {
+	display: flex ;
+	flex-wrap: wrap;
+	/* flex-direction: column;*/
+	background-color: #CCCCCC;
+}
+.flex-container > div {
+	background-color: #ffffff;
+	margin: 10px;
+	padding: 20px;
+	font-family: italic;
+	font-size: 30px;
+}
+				
+
