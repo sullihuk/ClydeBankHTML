@@ -162,7 +162,7 @@ div.the-child {
 	overflow: hidden;
 	background-color: #333333;
 }
-.main-nav li {float: left;}
+.main-nav li {float: right;}
 .main-nav li a {
 	display: block;
 	color: #EEEEEE;
@@ -183,5 +183,10 @@ div.the-child {
 	font-family: italic;
 	font-size: 30px;
 }
-				
+blockquote {border-left: 3px solid black;}
+q{background-color: #FFFF33;}
+cite {
+	font-size: 80%;
+	color:gray;
+}				
 
