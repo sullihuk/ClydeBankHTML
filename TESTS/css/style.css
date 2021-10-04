@@ -199,3 +199,11 @@ td {padding: 5px;}
 tr:nth-child(even) {background-color:lightgray;}
 .center-cell {text-align: center;}
 .subject {font-size:3em;}
+.lubel {
+	background-color: darkgrey;
+	font-family= 'Open Sans';
+}
+::placeholder {
+	color: darkgrey;
+	font-style:italic;
+}
