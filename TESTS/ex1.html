@@ -225,15 +225,39 @@
 
 				<textarea name="message" rows="5" cols="60" maxlength="2000" wrap="hard"></textarea>
 				<br>
-				<input type="text" name="name" placeholder="Please enter your name">
+				<input class="field" type="text" name="name" placeholder="Please enter your name">
 				<br>
-				<input type="text" name="name" autofocus>
+				<input class="field" type="text" name="name" autofocus>
 				<br>	
-				<input type="text" name="username" autocomplete="on">
+				<input class="anotherfield" type="text" name="username" autocomplete="on" required>
 				<br>
 				<input type="range" name="pressure" min="0" max="100" step="5">
 				<br>
+				<input class="buton" type="submit" name="submit" value="Send Message"><br> 
+				
+				<label for="email"> Your Email</label><br>
+				<input class="field" type="email" name="email" required>
+				<br>
+				<select class="anotherfield" name="return">
+					<option value="Smoke" disabled>Smoke Signals</option>
+					<option value="Email"> Email</option>
+					<option value="Phone"> Phone Call</option>
+				</select>
+				<br>
+				<input class="field" type="email" name="email" required> <br>
+			<select class="anotherfield" name="reply" required>
+					<option value="" selected>Please select...</option>
+					<option value="Email"> Email</option>
+					<option value="Phone"> Phone Call</option>
+				</select>
+				<br>
+				<input class="field" type="text" name="ssn" pattern="^(\d{3}-?\d{2}-\d{4})$" required>
+				<br>
+				<input class="field" type="text" name="country" pattern="^([A-Z]{2})$" required><br>
+				
 			</body>
+
+			
 	<footer>
 	</footer>
 	
